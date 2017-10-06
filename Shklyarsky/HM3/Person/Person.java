@@ -24,13 +24,13 @@ public class Person {
 	public void setBirthYear(int birthYear) {
 		this.birthYear = birthYear;
 	}
-	public String inputInfo(String info) {
-		return info;
+	public void input(String name, int birthYear){
+		this.name = name;
+		this.birthYear = birthYear;
 	}
-
-	/*public void outputInfo() {
-		return info;
-	*/}
+	public void output(){
+		System.out.println(this.name + " is " + getAge());
+	}
 	
 	public String changeName(String name) {
 		this.name = name;

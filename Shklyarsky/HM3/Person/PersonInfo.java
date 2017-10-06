@@ -22,8 +22,9 @@ public class PersonInfo {
 		pep2.changeName("Vega");
 		pep4.changeName("Mike");
 		
-		pep3.inputInfo("he is smart");
-		pep1.inputInfo("he is tall");
+		
+		
+		
 		
 		System.out.println(pep1);
 		System.out.println(pep2);
@@ -34,6 +35,9 @@ public class PersonInfo {
 		System.out.println(pep1.getName() + " is " +pep1.getAge());
 		System.out.println(pep3.getName() + " is " +pep3.getAge());
 		System.out.println(pep5.getName() + " is " +pep5.getAge());
+		
+		pep3.input("Alex", 1977);
+		pep3.output();
 	}
 
 }
