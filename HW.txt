@@ -1,5 +1,7 @@
                      HW1  HW3
 Skrypets Oleksandr    +    +
-Demidov Oleksii       +
+Demidov Oleksii       +    +
 Andrew Dyba           + 
 Shklyarsky            +    +
+Didych                +    +
+br1                   +
