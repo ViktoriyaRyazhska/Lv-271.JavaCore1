@@ -1,8 +1,12 @@
+import java.util.Calendar;
+
 public class Person {
 	
 	private String name;
 	private int birthYear;
 	
+	Calendar cal = Calendar.getInstance();
+	int thisYear = cal.get(Calendar.YEAR);
 		
 	public Person(String name, int birthYear) {
 	this.name = name;
@@ -38,7 +42,7 @@ public class Person {
 	}
 	
 	public int getAge() {
-		return (2017-birthYear); 
+		return (thisYear-birthYear); 
 	}
 
 	@Override
