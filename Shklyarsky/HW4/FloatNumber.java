@@ -8,27 +8,20 @@ public class FloatNumber {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.println("Type 3 float numebrs!");
-		float f1 = Float.parseFloat(br.readLine());
-		float f2 = Float.parseFloat(br.readLine());
-		float f3 = Float.parseFloat(br.readLine());
+		float nmb[] = new float[3];
+		for (int i = 0; i < nmb.length; i++) {
+			System.out.println("type a number!");
+			nmb[i] = Float.parseFloat(br.readLine());
+		}
 
-		if (f1 >= -5 && f1 <= 5) {
-			System.out.println("number " + f1 + " is in [-5 | 5] range ");
-		} else {
-			System.out.println("number " + f1 + " is not in [-5 | 5] range ");
+		for (int i = 0; i < nmb.length; i++) {
+			if ((nmb[i] <= 5) && (nmb[i] >= -5)) {
+				System.out.println("number " + nmb[i] + " is between [-5|5]");
+			} else {
+				System.out.println("number " + nmb[i] + " is out of range[-5|5]");
+			}
 		}
-		if (f2 <= 5 && f2 >= -5) {
-			System.out.println("number " + f2 + " is in [-5 | 5] range ");
-		} else {
-			System.out.println("number " + f2 + " is not in [-5 | 5] range ");
-		}
-		if (f3 <= 5 && f3 >= -5) {
-			System.out.println("number " + f3 + " is in [-5 | 5] range ");
-		} else {
-			System.out.println("number " + f3 + " is not in [-5 | 5] range ");
-		}
-		
+
 	}
 
 }
