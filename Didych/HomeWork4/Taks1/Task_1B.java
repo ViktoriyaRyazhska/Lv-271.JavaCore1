@@ -1,4 +1,4 @@
-package ob_10_10_2017;
+package softserve.homework4.Taks1;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -9,16 +9,36 @@ public class Task_1B
 {
     public static void main(String[] args)
     {
-        int[] arr = new int[3];
+
         Scanner number = new Scanner(System.in);
         System.out.println("Please, enter theer numbers : ");
         int t = number.nextInt();
         int r = number.nextInt();
         int y = number.nextInt();
-        arr[0] = t;
-        arr[1] = r;
-        arr[2] = y;
-        Arrays.sort(arr);
-        System.out.println("Max: " + arr[2] + ", " + "min: " + arr[0] );
+
+        if (t > r){
+            if (r > y){
+                System.out.println("Max: " + t + ", " + "min: " + y);
+            }else if (y > r && t > y){
+                System.out.println("Max: " + t + ", " + "min: " + r);
+            }else if (y > t){
+                System.out.println("Max: " + y + ", " + "min: " + r);
+            }
+        }else if (r > y){
+            if ( t > y){
+                System.out.println("Max: " + r + ", " + "min: " + y);
+            }else if(y > t && r > t){
+                System.out.println("Max: " + r + ", " + "min: " + t);
+            }
+        }else if (y > t){
+            if (t > r){
+                System.out.println("Max: " + y + ", " + "min: " + r);
+            }else if(y > t && r > t){
+                System.out.println("Max: " + y + ", " + "min: " + t);
+
+            }
+        }
+
     }
+
 }
