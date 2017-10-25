@@ -5,40 +5,31 @@ import java.util.Scanner;
 
 //Anastasiya Didych
 
-public class Task_1B
-{
-    public static void main(String[] args)
-    {
+public class Task_1B {
+    public static void main(String[] args) {
+
 
         Scanner number = new Scanner(System.in);
-        System.out.println("Please, enter theer numbers : ");
+        System.out.println("Please, input three numbers: ");
         int t = number.nextInt();
-        int r = number.nextInt();
-        int y = number.nextInt();
-
-        if (t > r){
-            if (r > y){
-                System.out.println("Max: " + t + ", " + "min: " + y);
-            }else if (y > r && t > y){
-                System.out.println("Max: " + t + ", " + "min: " + r);
-            }else if (y > t){
-                System.out.println("Max: " + y + ", " + "min: " + r);
-            }
-        }else if (r > y){
-            if ( t > y){
-                System.out.println("Max: " + r + ", " + "min: " + y);
-            }else if(y > t && r > t){
-                System.out.println("Max: " + r + ", " + "min: " + t);
-            }
-        }else if (y > t){
-            if (t > r){
-                System.out.println("Max: " + y + ", " + "min: " + r);
-            }else if(y > t && r > t){
-                System.out.println("Max: " + y + ", " + "min: " + t);
-
-            }
+        int max = t;
+        int min = t;
+        int n = number.nextInt();
+        int k = number.nextInt();
+        if (n > max){
+            max = n;
         }
+        if (n < min){
+            min = n;
+        }
+        if (k > max){
+            max = k;
+        }
+        if (k < min){
+            min = k;
+        }
+        System.out.println("max: " + max + ", min: " + min);
+
 
     }
-
 }
