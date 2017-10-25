@@ -8,4 +8,8 @@ abstract class Bird {
     int layEggs;
     String type;
 
+    @Override
+    public String toString() {
+        return "The " + type + " has " + feather + " feather, lays " + layEggs + " egg. Can the " + type + " fly? " + fly();
+    }
 }

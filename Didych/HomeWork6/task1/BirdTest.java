@@ -10,7 +10,7 @@ public class BirdTest {
         Penguin penguin = new Penguin("penguin", "black and white", 1);
         Bird birds[] = {eagle, chicken, swallow, penguin};
         for (int i = 0; i < birds.length; i++){
-            System.out.println("The " + birds[i].type + " has " + birds[i].feather + " feather, lays " + birds[i].layEggs + " egg. Can the " + birds[i].type + " fly? " + birds[i].fly());
+            System.out.println(birds[i].toString());
         }
     }
 }
