@@ -21,9 +21,7 @@ public class Main {
 			x = div(Integer.parseInt(br.readLine()), Integer.parseInt(br.readLine()));
 			System.out.println(x);
 
-		} catch (Exception e) {
-			System.out.println("Can't devide by zero");
-		}
+		} 
 		catch (ArithmeticException e) {
 			System.out.println("Can't devide by zero");
 		} catch (NumberFormatException | IOException e) {
