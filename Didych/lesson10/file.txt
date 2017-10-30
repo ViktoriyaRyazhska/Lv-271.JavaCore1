@@ -1,0 +1,9 @@
+Thread gives up CPU for other threads ready to run. Makes the currently running 
+thread sleep (block) for a period of time.InterruptedException - if another thr
+ead has interrupted the current thread.Wait until the thread is “not alive”
+
+Set priority from 1 to 10
+
+New thread has default priority 5
+
+
