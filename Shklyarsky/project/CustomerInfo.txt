@@ -1,0 +1,8 @@
+ broker | customer | car price | years behind the wheel | date of deal | price of vehicle insurance 
+[Vasya | Moravskyi |     27000   |            12         |    17-05-30    | 309
+
+, Vasya | Savchenko |     15000   |            4         |    17-06-15    | 193
+
+, Vasya | Sidorenko |     18000   |            10         |    17-03-18    | 190
+
+]

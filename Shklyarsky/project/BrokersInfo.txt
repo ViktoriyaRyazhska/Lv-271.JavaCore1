@@ -1,0 +1,29 @@
+Name |   salary  |          phone number             |    City   | 
+Vasya | 500 salary | phone number +3809876543219 | from lviv | 
+
+Taras | 720 salary | phone number +380789123456 | from Kiev | 
+
+Pavlo | 300 salary | phone number +380127893456 | from Kiev | 
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+                           Customer table  
+-------------------------------------------------------------------------------------------------------------
+ broker | customer | car price | years behind the wheel | date of deal | price of vehicle insurance 
+[Pavlo | Tomashivskyi |     45000   |            15         |    17-04-01    | 555
+
+, Taras | Lewandovski |     30000   |            5         |    17-08-22    | 410
+
+, Pavlo | Buyalskiy |     22000   |            2         |    16-12-30    | 314
+
+, Vasya | Moravskyi |     27000   |            12         |    17-05-30    | 309
+
+, Taras | Yarmolenko |     20000   |            8         |    17-07-09    | 236
+
+, Vasya | Savchenko |     15000   |            4         |    17-06-15    | 193
+
+, Vasya | Sidorenko |     18000   |            10         |    17-03-18    | 190
+
+]
