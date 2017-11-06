@@ -40,7 +40,7 @@ public class TermDeposit extends Deposit implements Loyalty {
 		}
 		double sumPercent = (sumTermDepo * PERCENT * termTermDepo * 30) / (numderDayOfYear * 100);
 		System.out.print(
-				"—ума нарахованих в≥дсотк≥в за " + termTermDepo + " м≥с€ц≥(в)\n при ставц≥ " + PERCENT + " % складе ");
+				"The amount of all interest at an interest rate " + PERCENT + " % for " +  termTermDepo + " months will be equals ");
 		System.out.printf("%.2f", sumPercent);
 		System.out.println("\n----------------------------------------------");
 	}

@@ -24,11 +24,11 @@ public class Service {
 	 */
 	void printMainMenu() {
 		System.out.print("==============================================");
-		System.out.println("\nВведіть номер операції, яку Ви хочете виконати");
+		System.out.println("\nChoise operation number                     ");
 		System.out.println("==============================================");
 		System.out.println("Add new consumer -------------------------- 1 ");
 		System.out.println("Find a consumer by taxNumber -------------- 2 ");
-		System.out.println("Депозитний калькулятор -------------------- 3 ");
+		System.out.println("Deposit calc ------------------------------ 3 ");
 		System.out.println("Add a new deposit agreement --------------- 4 ");
 		System.out.println("Print all deposits ------------------------ 5 ");
 		System.out.println("Find deposit list by taxNumber ------------ 6 ");
@@ -36,7 +36,7 @@ public class Service {
 		System.out.println("Save deposit agreement by name to file ---- 8 ");
 		System.out.println("Exit -------------------------------------- 9 ");
 		System.out.println("==============================================");
-		System.out.print("Ваш вибір: ");
+		System.out.print("Your choise: ");
 	}
 
 	/**
@@ -49,13 +49,13 @@ public class Service {
 		int operationNumber;
 		while (!isExit) {
 			System.out.print("==============================================");
-			System.out.println("\nВведіть номер операції, яку Ви хочете виконати");
+			System.out.println("\nChoise operation number                     ");
 			System.out.println("==============================================");
 			System.out.println("Calculation term deposit ------------------ 1 ");
 			System.out.println("Calculation accumulative deposit ---------- 2 ");
 			System.out.println("Exit to main menu ------------------------- 0 ");
 			System.out.println("==============================================");
-			System.out.print("Ваш вибір: ");
+			System.out.print("Your choise: ");
 			operationNumber = Integer.parseInt(br.readLine());
 			switch (operationNumber) {
 			case 1: {
@@ -63,7 +63,7 @@ public class Service {
 				break;
 			}
 			case 2: {
-				System.out.println("You chose 2th punkt");
+				TermDeposit.termDepoCalc(br);
 				break;
 			}
 			case 0: {
