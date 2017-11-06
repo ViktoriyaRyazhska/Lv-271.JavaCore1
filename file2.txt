@@ -1,0 +1,3 @@
+A number of lines in the file "file1.txt" equals: 1069 line(s)
+The longest line in the file "file1.txt" is : ALBION (1), sailing smack (wi - sloop), 25/1893, Brixham-reg BM160, Brixham for fishing. Mined, sank 8 miles S by W of Berry Head, Devon (wi - in 50.16N, 03.29W); 3 lives lost including skipper (bm - apparently strayed into British minefield; un – not included, so presumably not U-boat-laid) (+L/bm/wi)
+Oleksandr 01.04.1991
